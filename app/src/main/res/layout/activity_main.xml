@@ -18,15 +18,12 @@
             <Button
                 android:id="@+id/button"
                 style="@style/oferta"
-                android:background="#FFFFFF"
-                android:foreground="@drawable/paris"
+                android:background="@drawable/paris"
                 android:text="Paris" />
 
             <Button
                 android:id="@+id/button2"
                 style="@style/oferta"
-                android:background="#FFFFFF"
-                android:foreground="@drawable/brasil"
                 android:text="Brasil" />
 
         </LinearLayout>
