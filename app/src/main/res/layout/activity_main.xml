@@ -19,12 +19,31 @@
                 android:id="@+id/button"
                 style="@style/oferta"
                 android:background="@drawable/paris"
-                android:text="Paris" />
+                android:text="@string/paris" />
 
             <Button
                 android:id="@+id/button2"
                 style="@style/oferta"
-                android:text="Brasil" />
+                android:background="@drawable/brasil"
+                android:text="@string/brasil" />
+
+            <Button
+                android:id="@+id/button3"
+                style="@style/oferta"
+                android:background="@drawable/malta"
+                android:text="@string/malta" />
+
+            <Button
+                android:id="@+id/button4"
+                style="@style/oferta"
+                android:background="@drawable/toledo"
+                android:text="@string/toledo" />
+
+            <Button
+                android:id="@+id/button5"
+                style="@style/oferta"
+                android:background="@drawable/mexico"
+                android:text="@string/mexico" />
 
         </LinearLayout>
     </ScrollView>

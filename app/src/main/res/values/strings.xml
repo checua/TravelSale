@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">TravelSale</string>
+    <string name="paris">Paris</string>
+    <string name="brasil">Brasil</string>
+    <string name="malta">Malta</string>
+    <string name="toledo">Toledo</string>
+    <string name="mexico">México</string>
 </resources>
