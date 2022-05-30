@@ -6,13 +6,37 @@
     android:layout_height="match_parent"
     tools:context=".ContentActivity">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Contenido de Paris"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/name"
+            android:autofillHints="" />
+
+        <Button
+            android:id="@+id/enviar"
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+            android:layout_weight="1"
+            android:onClick="enviarnombre"
+            android:text="@string/enviar"
+            android:textColor="#FFFFFF" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="enviarnombre"
+            app:srcCompat="@android:drawable/btn_plus" />
+
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

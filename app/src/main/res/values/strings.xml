@@ -5,4 +5,6 @@
     <string name="malta">Malta</string>
     <string name="toledo">Toledo</string>
     <string name="mexico">México</string>
+    <string name="enviar">Enviar</string>
+    <string name="name">Name</string>
 </resources>

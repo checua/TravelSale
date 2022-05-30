@@ -9,8 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TravelSale">
-        <activity android:name=".ContentActivity"
-            android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".DestinoActivity"></activity>
+        <activity
+            android:name=".ContentActivity"
+            android:parentActivityName=".MainActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,6 +21,5 @@
             </intent-filter>
         </activity>
     </application>
-
 
 </manifest>
